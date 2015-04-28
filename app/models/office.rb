@@ -1,0 +1,2 @@
+class Office < House
+end
