@@ -69,6 +69,6 @@ class OfficesController < ApplicationController
 
     # Never trust parameters from the scary internet, only allow the white list through.
     def office_params
-      params.require(:house).permit(:name, :location, :street)
+      params.require(:house).permit(:name, :location, :street, :size)
     end
 end
